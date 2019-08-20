@@ -1,0 +1,7 @@
+<launch>
+    <node name="line_tracker" pkg="line_tracker" type="line_tracker_node" output="screen">
+        <!-- <remap from="~image_raw" to="/camera/fisheye/image_raw"/> -->
+        <param name="thermal_cfg_file" type="string" value="$(find line_tracker)/config/thermal_config.yaml"/>
+        <remap from="image_raw" to="/thermal/image_raw"/>
+    </node>
+</launch>

@@ -1,0 +1,23 @@
+%YAML:1.0
+
+Camera.width: 640
+Camera.height: 512
+
+Camera.fx: 449.0873328248328
+Camera.fy: 450.1217819037626
+Camera.cx: 329.5354464603628
+Camera.cy: 250.2779443869920
+
+Camera.d0: -0.434852141240777
+Camera.d1: 0.165758215991058
+Camera.d2: 0.001376875760674
+Camera.d3: -0.003966701188700
+Camera.d4: 0.0
+
+# Thermal
+Thermal.B: 1428.0
+Thermal.F: 1.0
+Thermal.O: -247.525
+Thermal.R: 426707.0
+Thermal.celsius_min: 0.0
+Thermal.celsius_max: 25.0
